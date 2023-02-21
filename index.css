@@ -4,14 +4,16 @@ html {
 }
 
 .navbar {
-    margin-top: 3%;
     width: 100%;
+    height: 10rem;
     position: fixed;
     top: 0;
     left: 0;
+    background-color: #26156C;
 }
 
 #club-logo {
+    margin-top: 3%;
     position: absolute;
     left: 10%;
     width: 5.5rem;
@@ -21,7 +23,7 @@ html {
 }
 
 .navbar ul {
-    margin-top: 2%;
+    margin-top: 5%;
     position: absolute;
     left: 20%;
 }
@@ -33,7 +35,18 @@ html {
     color: white;
 }
 
-.navbar li:hover {
+.navbar a:link, .navbar a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a.current-page:link, .navbar a.current-page:visited {
+    text-decoration: underline;
+    text-decoration-color: #8E57C6;
+    text-decoration-thickness: 5px;
+}
+
+.navbar a:hover, .navbar a:active {
     text-decoration: underline;
     text-decoration-color: #8E57C6;
     text-decoration-thickness: 5px;
