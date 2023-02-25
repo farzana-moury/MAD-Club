@@ -20,7 +20,6 @@ body {
     left: 8%;
     background-color: #26156C;
     align-items: center;
-    /* justify-content: space-around; */
     display: flex;
 }
 
@@ -29,6 +28,7 @@ body {
     padding-bottom: 2%;
     display: flex;
     margin-left: 5%;
+    flex-wrap: wrap;
 }
 
 #club-logo {
@@ -40,8 +40,8 @@ body {
 .navbar li {
     display: block;
     text-align: center;
-    margin-right: 7.5rem;
-    font-size: 1.5rem;
+    margin-right: 120px;
+    font-size: 25px;
     color: white;
 }
 
@@ -184,12 +184,14 @@ h1 span#madFull {
       }
   
       .navbar.responsive ul {
-          top: 150px;
+          position: absolute;
+          top: 0px;
           left: 0px;
           display: block;
           width: 100%;
           text-align: center;
           background-color: #1b0e4f;
           margin-top: 0;
+          margin-left: 0;
       }
 }
