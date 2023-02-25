@@ -10,6 +10,9 @@ body {
     align-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .navbar {
@@ -72,7 +75,10 @@ body {
 .content {
     width: 70%;
     display: flex;
-    margin: 10rem 17rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
+    margin-top: 10rem;
+    margin-bottom: 30px;
     padding-left: 2rem;
     flex-flow: row wrap;
     justify-content: center;
@@ -150,6 +156,18 @@ h1 span#madFull {
 #github {
     background-color: #171515;
     padding: 4px 4px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    background-color: #120a34;
+    width: 100%;
+    padding: 10px 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -248,5 +266,10 @@ h1 span#madFull {
     .socials ul li {
         margin-right: 1rem;
         margin-left: 1rem;
+    }
+
+    footer {
+        padding-bottom: 100px;
+        z-index: -1;
     }
 }
