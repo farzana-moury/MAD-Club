@@ -100,6 +100,10 @@ body {
     box-shadow: 2vh 2vh 0vh black;
 }
 
+.content-img img:hover {
+    transform: scale(1.1);
+}
+
 
 h1 {
     font-size: 3rem;
