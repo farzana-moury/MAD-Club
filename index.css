@@ -17,18 +17,18 @@ body {
     height: 10rem;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 8%;
     background-color: #26156C;
+    align-items: center;
+    /* justify-content: space-around; */
+    display: flex;
 }
 
 .navbar ul {
     padding-top: 2%;
     padding-bottom: 2%;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: absolute;
-    left: 5%;
+    margin-left: 5%;
 }
 
 #club-logo {
@@ -147,6 +147,12 @@ h1 span#madFull {
 }
 
 @media screen and (max-width: 600px) {
+    .navbar {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
     .navbar #club-logo {
         position: absolute;
         left: 20px;
@@ -164,28 +170,26 @@ h1 span#madFull {
         top: 20px;
         font-size: 25px;
     }
-}
 
-@media screen and (max-width: 600px) {
     .navbar.responsive a.icon {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
-
-    .navbar.responsive ul li{
-      display: block;
-      margin-top: 15px;
-      margin-bottom: 15px;
-    }
-
-    .navbar.responsive ul {
-        top: 150px;
-        left: 0px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+  
+      .navbar.responsive ul li{
         display: block;
-        width: 100%;
-        text-align: center;
-        background-color: #1b0e4f;
-        margin-top: 0;
-    }
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+  
+      .navbar.responsive ul {
+          top: 150px;
+          left: 0px;
+          display: block;
+          width: 100%;
+          text-align: center;
+          background-color: #1b0e4f;
+          margin-top: 0;
+      }
 }
