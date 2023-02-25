@@ -133,6 +133,10 @@ h1 span#madFull {
     box-shadow: 3px 3px 0px #8E57C6;
 }
 
+.socials a:link, .socials a:visited {
+    color: white;
+}
+
 #discord {
     background-color: #7289DA;
     padding: 4px 2px;
